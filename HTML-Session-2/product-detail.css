@@ -1,0 +1,48 @@
+/* first section */
+.firstonpdtdtl{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-areas: 
+        'imgonfirstpdtdtl txtonfirstpdtdtl'
+        'imgesonfirstpdtdtl btnoncart';
+    column-gap: 2rem;
+}
+.imgonfirstpdtdtl img{
+    margin-left: 4.5rem;
+    grid-area: imgonfirstpdtdtl;
+    width: 35rem;
+    height: 23.78em;
+}
+.imgesonfirstpdtdtl{
+    margin-left: 4.5rem;
+    grid-area: imgesonfirstpdtdtl;
+    display: flex;
+    width: 35.rem;
+    height: 7rem;
+    margin-top: -5.7rem
+}
+.txtonpdtdtl{
+    padding-bottom: 1rem;
+}
+.txtonfirstpdtdtl{
+    grid-area: txtonfirstpdtdtl;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 9rem;
+}
+#btnoncart{
+    background-color: tomato;
+    border: none;
+    margin-top: 2.5rem;
+    width: 7.5rem;
+    height: 2.5rem;
+}
+#btnoncart:hover{
+    background-color: brown;
+}
+/* second section */
+.secondonpdtdtl{
+    margin: 15rem;
+}
