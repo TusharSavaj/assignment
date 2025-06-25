@@ -1,0 +1,68 @@
+/* first section */
+.firstoncontact {
+    margin-top: 1.5rem;
+}
+
+.firstoncontact img {
+    width: 100%;
+    height: 15rem;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.txtonfirstcontact h3 {
+    padding-bottom: 1rem;
+}
+
+.txtonfirstcontact {
+    color: white;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+}
+/* second section  */
+.secondoncontact img{
+    width: 100%;
+    height: 33rem;
+}
+/* third section */
+.thirdoncontact{
+    margin: 5rem;
+}
+#first{
+    margin-left: 15rem;
+    width: 19.7rem;
+}
+#last{
+    width: 19.7rem;
+}
+.txtoncontact input{
+    margin-bottom: 2rem;
+    height: 3rem;
+}
+.number input{
+    margin-left: 15rem;
+    width: 40rem;
+    height: 3rem;
+}
+.selectarea select{
+    margin-left: 15rem;
+    margin-bottom: 2rem;
+    width: 40rem;
+    height: 3rem;
+}
+.submitnow{
+    margin-left: 27rem;
+}
+.submitnow input{
+    border: none;
+    background-color: rgb(179,85,85);
+    color: white;
+    width: 15rem;
+    height: 3rem;
+}
+.submitnow input:hover{
+    background-color: rgb(211,138,138);
+}

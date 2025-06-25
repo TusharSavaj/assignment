@@ -1,0 +1,76 @@
+.firstonabt {
+    margin-top: 1.5rem;
+}
+
+.firstonabt img {
+    width: 100%;
+    height: 15rem;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.txtonfirstabt h3 {
+    padding-bottom: 1rem;
+}
+
+.txtonfirstabt {
+    color: white;
+    padding-left: 5rem;
+    padding-right: 4rem;
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+}
+
+/* second section */
+.secondonabt {
+    margin-top: 3rem;
+}
+
+.secondonabt h4,
+p {
+    margin-bottom: 1.5rem;
+    padding-left: 22rem;
+    padding-right: 22rem;
+}
+
+/* third section */
+.thirdonabt {
+    margin-top: 5rem;
+    margin-bottom: -0.61rem;
+}
+
+.imgonthirdabt {
+    display: flex;
+    background-color: tomato;
+}
+
+.imgonthirdabt img {
+    width: 73.5em;
+    height: 31.5rem;
+}
+
+#txtonthirdabth {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 10px;
+}
+
+#txtonthirdabt1 {
+    padding-top: 2.5rem;
+    margin-top: 0rem;
+}
+
+.txtonthirdabt {
+    display: flex;
+    flex-direction: column;
+    margin-top: rem;
+    margin-left: 0rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 0px;
+}
+
+#thirdabtontxt {
+    margin-top: 10rem;
+}
