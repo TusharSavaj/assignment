@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid Example</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* 2 equal columns */
+      gap: 20px;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .text {
+      font-size: 20px;
+    }
+
+    .image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="text">
+      <h2>Yeh Left Side ka Text Hai</h2>
+      <p>Yahan par aap koi bhi content ya description de sakte ho.</p>
+    </div>
+    <div class="image">
+      <img src="images/img1.png/400*250" alt="Image">
+    </div>
+  </div>
+
+</body>
+</html>
