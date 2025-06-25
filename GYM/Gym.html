@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mygym</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background: url('gym.jpg');
+        }
+
+        .left img {
+            position: absolute;
+            left: 45px;
+        }
+
+        .left {
+            display: inline-block;
+            width: 80px;
+            margin-top: 14px;
+            margin-left: 20px;
+            margin-right: 210px;
+        }
+
+        .left h4 {
+            text-align: center;
+            margin-top: 30px;
+            color: white;
+        }
+
+        .mid {
+            display: inline-block;
+            width: 50%;
+            margin: 0px auto;
+        }
+
+        .mid ul {
+            list-style: none;
+        }
+
+        .mid li {
+            display: inline;
+            padding: 4px;
+        }
+
+        .mid li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 34px 23px
+        }
+
+        .mid li a:hover {
+            text-decoration: underline;
+            color: rgb(58, 54, 54);
+        }
+.mid li a.active{
+    text-decoration: underline;
+            color: rgb(80,72,72);
+}
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            top: 42px;
+            right: 30px;
+        }
+
+        .btn {
+            cursor: pointer;
+            margin: 0px 5px;
+            background-color: #ab9b8e;
+            color: white;
+            border-radius: 5px;
+            padding: 4px 14px;
+            font-size: 14px;
+        }
+
+        .btn:hover {
+            background-color: rgb(132,122,122);
+        }
+
+        h4 {
+            text-align: center;
+        }
+
+        .container {
+            border: 4px solid white;
+            margin: 20px 310px;
+            padding: 3px;
+            border-radius: 15px;
+            padding-bottom: 20px;
+        }
+
+        .form {
+            text-align: left;
+            padding-left: 90px;
+        }
+
+        .form-grp input {
+            text-align: left;
+            padding-left: 20px;
+            padding-right: 250px;
+        }
+
+        .btnforfooter {
+            margin-top: 35px;
+            padding-left: 120px;
+        }
+
+        #sbt {
+            margin-top: 10px;
+        }
+
+        #gnr {
+            border: 0px solid white;
+            margin-left: 0px;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <div class="left">
+                <img src="dumbbell.png">
+                <h4>
+                    fitness
+                </h4>
+            </div>
+            <div class="mid">
+                <ul class="midnav">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="btn">Call us Now</button>
+                <button class="btn">Email us</button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h4 style="color: white;">Join the best gym of Ahmedabad Now</h4>
+        <form action="noaction.php" class="form">
+            <label for="name" style="color: white;">Full Name</label><br>
+            <div class="form-grp">
+                <input type="text" id="name" name="myname" placeholder="Enter Your Name"><br>
+            </div>
+            <label for="age" style="color: white;">Age</label><br>
+            <div class="form-grp">
+                <input type="text" id="age" name="myage" placeholder="Enter Your Age"><br>
+            </div>
+            <label for="gender" style="color: white;">Gender</label><br>
+            <div id="gnr" class="form-grp" style="color: white;">
+                Male<input type="radio" name="mygender" id="gender">Female<input type="radio" name="mygender"
+                    id="gender"><br>
+            </div>
+            <label for="locality" style="color: white;">Locality</label><br>
+            <div class="form-grp">
+                <input type="text" id="locality" name="mylocation" placeholder="Enter Your Locality">
+            </div>
+            <div class="btnforfooter">
+                <input class="btn" type="submit" value="Submit Now">
+                <input class="btn" type="reset" value="Reset Now">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
