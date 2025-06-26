@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <style>
+        .firstcls {
+            padding-left: 550px;
+        }
+
+        .secondcls {
+            background-color: palegoldenrod;
+            border-radius: 30px;
+        }
+
+        .secondcls a {
+            text-decoration: none;
+        }
+
+        .secondcls ul {
+            overflow: auto;
+        }
+
+        .secondcls li {
+            list-style-type: none;
+            float: inline-start;
+            list-style-: none;
+            margin: 3px 73px;
+        }
+
+        .secondcls li a {
+            padding: 3px 3px;
+            color: black;
+        }
+
+        .secondcls li a:hover {
+            background-color: rgb(227, 222, 222);
+            color: black;
+        }
+
+        .productdtl ul {
+            text-align: justify;
+            overflow: none;
+        }
+
+        .productdtl li {
+            list-style-type: none;
+        }
+
+        .glrtbl {
+            margin-top: 20px;
+        }
+
+        .glronfourthcls {
+            background-color: orangered;
+            padding-left: 550px;
+            padding-right: 620px;
+            padding-bottom: 20px;
+            ;
+            padding-top: 20px;
+            ;
+        }
+
+        .img td img {
+            width: 124px;
+        }
+
+        .fifthcls {
+            margin-top: -2px;
+            ;
+            width: 1245px;
+            ;
+            background-color: black;
+        }
+
+        .fifthcls ul {
+            overflow: none;
+        }
+
+        .fifthcls li {
+            list-style-type: none;
+        }
+
+        .fifthcls li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .sixcls {
+            background-color: black;
+            color: white;
+        }
+
+        .txtsixcls {
+            padding-left: 480px;
+            padding-right: 480px;
+        }
+
+        .active {
+            background-color: #faf8e7;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <h3 class="firstcls">HTML TRAINING</h3>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr class="secondcls">
+                        <td>
+                            <ul id="txtonscncls">
+                                <li><a href="Home-page.html">HOME</a></li>
+                                <li><a href="about-us.html">ABOUT US</a></li>
+                                <li><a href="Product.html">PRODUCT</a></li>
+                                <li class="active"><a href="#">PRODUCTDETAILS</a></li>
+                                <li><a href="contact-us.html">CONTACT US</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr class="thirdcls">
+                        <td style="width: 48%;">
+                            <table style="height: 355px;">
+                                <tr class="singleimgonthirdcls">
+                                    <td style="height: 48%; width:48%;">
+                                        <img id="mainimg" src="images/img15.png" style="width: 620px; height: 280px;">
+
+                                    </td>
+                                    <td class="productdtl">
+                                        <ul id="productdtl1">
+                                            <li>Product 1</li>
+                                            <li>
+                                                <h4>$45</h4>
+                                            </li>
+                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lorem
+                                                nec ligula
+                                                pretium commodo vel dapibus felis. Morbi ut lorem non est euismod
+                                                facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec
+                                                lorem
+                                                nec ligula pretium commodo vel dapibus felis. Morbi ut lorem non est
+                                                euismod
+                                                facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec
+                                                lorem
+                                                nec ligula pretium commodo vel dapibus felis. Morbi ut lorem non est
+                                                euismod
+                                                facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec
+                                                lorem
+                                                nec ligula pretium commodo vel dapibus felis. Morbi ut lorem non est
+                                                euismod
+                                                facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec
+                                                lorem
+                                                nec ligula pretium commodo vel dapibus felis. Morbi ut lorem non est
+                                                euismod
+                                                facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec
+                                                lorem
+                                                nec ligula pretium commodo vel dapibus felis. Morbi ut lorem non est
+                                                euismod
+                                                facilisis</li>
+                                            <br>
+                                            <li><input type="button" value="Add To Cart"></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr class="img">
+                        <td>
+                            <img src="images/img23.png" onclick="changeImage(this)">
+                        </td>
+                        <td>
+                            <img src="images/img24.png" onclick="changeImage(this)">
+                        </td>
+                        <td>
+                            <img src="images/img25.png" onclick="changeImage(this)">
+                        </td>
+                        <td>
+                            <img src="images/img26.png" onclick="changeImage(this)">
+                        </td>
+                        <td>
+                            <img src="images/img27.png" onclick="changeImage(this)">
+                        </td>
+                        <script>
+                            function changeImage(clickedImg) {
+                                document.getElementById('mainimg').src = clickedImg.src;
+                            }
+                        </script>
+                    </tr>
+                </table>
+                <table class="glrtbl">
+                    <tr>
+                        <td class="glronfourthcls">GALLERY</td>
+                    </tr>
+                </table>
+                <table class="fifthcls">
+                    <tr>
+                        <td>
+                            <ul>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                                <li><a href="#">Custome link</a></li><br>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr class="sixcls">
+                        <td>
+                            <h4 class="txtsixcls">COPYRIGHT 2020 | HTML TRAINING</h4>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
